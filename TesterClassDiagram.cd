@@ -1,0 +1,149 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="OsnTester.BaseCache&lt;T&gt;" Collapsed="true">
+    <Position X="8.25" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAgAAAAAAAABAQAAAAJAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>BaseCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.ClientCache" Collapsed="true">
+    <Position X="7.25" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAIAAAAABAAAAAQAAAAACAAAA=</HashCode>
+      <FileName>ClientCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.ExecutorCache" Collapsed="true">
+    <Position X="9.5" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAQAAAAAAAAAA=</HashCode>
+      <FileName>ExecutorCache.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.Program" Collapsed="true">
+    <Position X="12.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAA=</HashCode>
+      <FileName>Program.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.Impl.Client.ClientExecutor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="0.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAIAAAACAAAICaQAAAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Impl\Client\ClientExecutor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsnTester.Impl.Domains.OsnIdentity" Collapsed="true">
+    <Position X="12.5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>IAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAQAAAAAAAAA=</HashCode>
+      <FileName>Impl\Domains\OsnIdentity.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.Impl.Group.GroupExecutor" Collapsed="true">
+    <Position X="0.5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAEAAEAAAAAAAAAggAA=</HashCode>
+      <FileName>Impl\Group\GroupExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.Impl.Group.GroupInterpreter" Collapsed="true">
+    <Position X="2.75" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAAAAAAA=</HashCode>
+      <FileName>Impl\Group\GroupInterpreter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.Impl.HelpExecutor" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAIAAAAAABICSQAAAEAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>Impl\HelpExecutor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsnTester.Impl.Interpreter" Collapsed="true">
+    <Position X="2.75" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAQAEAAAAAAA=</HashCode>
+      <FileName>Impl\Interpreter.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.Impl.OsnClient" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="2.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAABAAAAwAAAAEAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>Impl\OsnClient.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsnTester.Impl.OsnExecutor" Collapsed="true">
+    <Position X="0.5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAEAAAAAIAAAACABAIDSQAAAAAAAAAAAAAAAAgAAI=</HashCode>
+      <FileName>Impl\OsnExecutor.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" />
+  </Class>
+  <Class Name="OsnTester.Impl.OsnExecutorFactory" Collapsed="true" BaseTypeListCollapsed="true">
+    <Position X="5" Y="4.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>kAAAAAAAAgAACQAAAAAABAEAAAAAAAgAAAgAABgAAAQ=</HashCode>
+      <FileName>Impl\OsnExecutorFactory.cs</FileName>
+    </TypeIdentifier>
+    <Lollipop Position="0.2" Collapsed="true" />
+  </Class>
+  <Class Name="OsnTester.Util.ObjectUtils" Collapsed="true">
+    <Position X="5" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AIQAAAAAAABAAAQAAAAAAAAAAAAAAAEAAAAAAAAAEAA=</HashCode>
+      <FileName>Util\ObjectUtils.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="OsnTester.Util.PropertiesParser" Collapsed="true">
+    <Position X="5" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAQAAAAAAQAAAAAAAAACAAAAAgAAAAAAAAAA=</HashCode>
+      <FileName>Util\PropertiesParser.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Interface Name="OsnTester.IAttribute" Collapsed="true">
+    <Position X="0.75" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAQAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IAttribute.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OsnTester.IExecutor">
+    <Position X="0.75" Y="1.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAAAAAAAAAAAI=</HashCode>
+      <FileName>IExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Interface Name="OsnTester.IExecutorFactory" Collapsed="true">
+    <Position X="5" Y="3.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAABAAAAAAAAAAAAAAAAAAAAAQ=</HashCode>
+      <FileName>IExecutorFactory.cs</FileName>
+    </TypeIdentifier>
+  </Interface>
+  <Enum Name="OsnTester.OPStatus" Collapsed="true">
+    <Position X="12.5" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAEAAAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAA=</HashCode>
+      <FileName>IExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Enum Name="OsnTester.Command" Collapsed="true">
+    <Position X="12.5" Y="1.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAABAEAYAAAAAAAIAAQAQAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>IExecutor.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Font Name="微软雅黑" Size="9" />
+</ClassDiagram>
